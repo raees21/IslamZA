@@ -9,7 +9,7 @@ namespace IslamZA.ViewModels
     {
         public AboutViewModel()
         {
-            Title = "About";
+            Title = "IslamZA";
             OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
         }
 
