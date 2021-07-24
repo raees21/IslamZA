@@ -25,8 +25,12 @@ namespace UventoXF.ViewModels
             loadEventItems();
             loadDates();
             NavigateToTasbeehPageCommand = new Command(async () => await ExecuteNavigateToTasbeehPageCommand());
+            NavigateToQiblaPageCommand = new Command(async () => await ExecuteNavigateToQiblaPageCommand());
+            NavigateTo99NamesPageCommand = new Command(async () => await ExecuteNavigateTo99NamesPageCommand());
         }
         public Command NavigateToTasbeehPageCommand { get; }
+        public Command NavigateToQiblaPageCommand { get; }
+        public Command NavigateTo99NamesPageCommand { get; }
         public Command SelectDateCommand { get; }
         public Command SelectEventTypeCommand { get; }
         public ObservableCollection<EventType> EventTypes { get; }
@@ -35,9 +39,18 @@ namespace UventoXF.ViewModels
 
         private DateItem _selectedDate;
 
+        private async Task ExecuteNavigateToQiblaPageCommand()
+        {
+            await Navigation.PushAsync(new Page2());
+        }
+
         private async Task ExecuteNavigateToTasbeehPageCommand()
         {
             await Navigation.PushAsync(new Page1());
+        }
+        private async Task ExecuteNavigateTo99NamesPageCommand()
+        {
+            await Navigation.PushAsync(new Page3());
         }
 
         public DateItem SelectedDate

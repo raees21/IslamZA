@@ -98,7 +98,7 @@
                 x:Name="frameHome"
                 Grid.Column="0"
                 BackgroundColor="#102733"
-                CornerRadius="{OnPlatform Android='30',
+                CornerRadius="{OnPlatform UWP='*',Android='30',
                                           iOS='26'}"
                 HasShadow="False"
                 HorizontalOptions="FillAndExpand"
@@ -133,7 +133,7 @@
                 x:Name="frameSearch"
                 Grid.Column="1"
                 BackgroundColor="#102733"
-                CornerRadius="{OnPlatform Android='30',
+                CornerRadius="{OnPlatform UWP='*',Android='30',
                                           iOS='26'}"
                 HasShadow="False"
                 HorizontalOptions="FillAndExpand"
@@ -169,7 +169,7 @@
                 x:Name="frameFavorite"
                 Grid.Column="2"
                 BackgroundColor="#102733"
-                CornerRadius="{OnPlatform Android='30',
+                CornerRadius="{OnPlatform UWP='*',Android='30',
                                           iOS='26'}"
                 HasShadow="False"
                 HorizontalOptions="FillAndExpand"

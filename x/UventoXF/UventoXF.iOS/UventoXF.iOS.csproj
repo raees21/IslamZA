@@ -124,6 +124,9 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Syncfusion.Xamarin.SfGauge">
+      <Version>18.1.0.42</Version>
+    </PackageReference>
     <PackageReference Include="Syncfusion.Xamarin.SfPdfViewer">
       <Version>19.2.0.44</Version>
     </PackageReference>

@@ -9,6 +9,7 @@ namespace UventoXF
         public App()
         {
             InitializeComponent();
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NDc4ODU4QDMxMzkyZTMyMmUzMFQyRFMxRGVHRm04bVprZm55RFoyYXZOZHpKYTRCdWRRZnJPTHc3dURxM0U9");
 
             MainPage = new NavigationPage(new MainPage());
 

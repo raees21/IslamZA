@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage
-    x:Class="UventoXF.Views.MainPage"
-    xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:control="clr-namespace:UventoXF.Controls"
-    xmlns:fonticons="clr-namespace:UventoXF.FontIcons"
-    NavigationPage.HasNavigationBar="False"
-    xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms">
-
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UventoXF.Views.Page2"
+             xmlns:fonticons="clr-namespace:UventoXF.FontIcons" 
+             xmlns:SyncfusionGauge="clr-namespace:Syncfusion.SfGauge.XForms;assembly=Syncfusion.SfGauge.XForms"
+             NavigationPage.HasNavigationBar="False">
+    
     <Grid
         HorizontalOptions="FillAndExpand"
         RowDefinitions="*, auto"
@@ -57,65 +55,56 @@
                     HeightRequest="20"
                     Source="menu"
                     WidthRequest="20" />
-                <Grid
-                    Grid.Row="1"
-                    Grid.ColumnSpan="3"
-                    Margin="20,20,20,0"
-                    ColumnDefinitions="*, auto"
-                    RowDefinitions="auto, auto">
-                    <Label
-                        Grid.Row="0"
-                        FontFamily="MuliBlack"
-                        FontSize="20"
-                        Text="Islamic Times" />
-                </Grid>
-                <control:CalendarCarouselView
-                    x:Name="calendarView"
-                    Grid.Row="2"
-                    Grid.ColumnSpan="3"
-                    Margin="20,15,20,0"
-                    ItemsSource="{Binding Dates}"/>
-                <!--<control:ListEventTypesView
-                    Grid.Row="3"
-                    Grid.ColumnSpan="3"
-                    Margin="20,15,0,0"
-                    VerticalOptions="Start" />-->
-                <control:ListEventsView
-                    Grid.Row="4"
-                    Grid.ColumnSpan="3"
-                    Margin="20,0"
-                    VerticalOptions="Start" />
-                <StackLayout Orientation="Horizontal"
-                Grid.Row="3"
-                Margin="20,15,0,0">
-                    <Button x:Name="btnTasbeeh" 
-                    HorizontalOptions="End"
-                    BackgroundColor="#29404E"
-                    HeightRequest="100" 
-                    WidthRequest="120"
-                    Text="Tasbeeh Counter" 
-                    TextColor="White"
-                    FontSize="Small" 
-                    Command="{Binding NavigateToTasbeehPageCommand}"/>
-                    <Button x:Name="btnNegar" 
-                    HorizontalOptions="End"
-                    BackgroundColor="#29404E"
-                    HeightRequest="100" 
-                    WidthRequest="120"
-                    Text="99 Names" 
-                    TextColor="White"
-                    FontSize="Small"
-                    Command="{Binding NavigateTo99NamesPageCommand}"/>
-                    <Button x:Name="btnNega" 
-                    HorizontalOptions="End"
-                    BackgroundColor="#29404E"
-                    HeightRequest="100" 
-                    WidthRequest="120"
-                    Text="Qibla" 
-                    TextColor="White"
-                    FontSize="Small" 
-                    Command="{Binding NavigateToQiblaPageCommand}"/>
-                </StackLayout>
+                <SyncfusionGauge:SfCircularGauge Grid.Row="1"
+                                         x:Name="circularGauge"
+                                         BackgroundColor="Transparent"
+                                         HorizontalOptions="CenterAndExpand"
+                                         VerticalOptions="CenterAndExpand">
+                    <SyncfusionGauge:SfCircularGauge.Scales>
+                        <SyncfusionGauge:Scale x:Name="scale"
+                                       StartAngle="270"
+                                       StartValue="0"
+                                       EndValue="360"
+                                       Interval="45"
+                                       LabelOffset="0.75"
+                                       SweepAngle="360"
+                                       MinorTicksPerInterval="1"
+                                       ShowLastLabel="False"
+                                       ScaleStartOffset="0.99"
+                                       ScaleEndOffset="0.9"
+                                       LabelCreated="Scale_LabelCreated">
+                            <SyncfusionGauge:Scale.Pointers>
+                                <SyncfusionGauge:NeedlePointer x:Name="pointer1"
+                                                       Type="Triangle"
+                                                       LengthFactor="0.65"
+                                                       KnobColor="White"
+                                                       Thickness="25"
+                                                       EnableAnimation="True">
+                                    <SyncfusionGauge:NeedlePointer.KnobRadius>
+                                        <OnPlatform x:TypeArguments="x:Double">
+                                            <On Platform="UWP"
+                                        Value="15" />
+                                            <On Platform="Android"
+                                        Value="25" />
+                                            <On Platform="iOS"
+                                        Value="25" />
+                                        </OnPlatform>
+                                    </SyncfusionGauge:NeedlePointer.KnobRadius>
+                                </SyncfusionGauge:NeedlePointer>
+                            </SyncfusionGauge:Scale.Pointers>
+                            <SyncfusionGauge:Scale.MajorTickSettings>
+                                <SyncfusionGauge:TickSettings StartOffset="0.9"
+                                                      EndOffset="0.83"
+                                                      Thickness="2" />
+                            </SyncfusionGauge:Scale.MajorTickSettings>
+                            <SyncfusionGauge:Scale.MinorTickSettings>
+                                <SyncfusionGauge:TickSettings StartOffset="0.9"
+                                                      EndOffset="0.85"
+                                                      Thickness="2" />
+                            </SyncfusionGauge:Scale.MinorTickSettings>
+                        </SyncfusionGauge:Scale>
+                    </SyncfusionGauge:SfCircularGauge.Scales>
+                </SyncfusionGauge:SfCircularGauge>
             </Grid>
         </ScrollView>
         <Grid
@@ -131,7 +120,7 @@
                 x:Name="frameHome"
                 Grid.Column="0"
                 BackgroundColor="#102733"
-                CornerRadius="{OnPlatform UWP='*',Android='30',
+                CornerRadius="{OnPlatform UWP='*', Android='30',
                                           iOS='26'}"
                 HasShadow="False"
                 HorizontalOptions="FillAndExpand"
@@ -159,13 +148,14 @@
                         Text="Home"
                         TextColor="{StaticResource orange}"
                         VerticalTextAlignment="Center" />
+
                 </Grid>
             </Frame>
             <Frame
                 x:Name="frameSearch"
                 Grid.Column="1"
                 BackgroundColor="#102733"
-                CornerRadius="{OnPlatform UWP='*',Android='30',
+                CornerRadius="{OnPlatform UWP='*', Android='30',
                                           iOS='26'}"
                 HasShadow="False"
                 HorizontalOptions="FillAndExpand"
@@ -193,9 +183,6 @@
                         Text="Search"
                         VerticalTextAlignment="Center" />
                 </Grid>
-                <!--<Frame.GestureRecognizers>
-                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" />
-                </Frame.GestureRecognizers>-->
             </Frame>
             <Frame
                 x:Name="frameFavorite"

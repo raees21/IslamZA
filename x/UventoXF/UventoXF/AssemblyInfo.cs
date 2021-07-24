@@ -1,3 +1,4 @@
+using Android.App;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -8,3 +9,8 @@ using Xamarin.Forms.Xaml;
 [assembly: ExportFont("opensans-semibold.ttf", Alias = "OpenSansSemiBold")]
 [assembly: ExportFont("fontello.ttf", Alias = "Fontello")]
 [assembly: ExportFont("materialdesignicons.ttf", Alias = "MaterialIcons")]
+[assembly: UsesPermission(Android.Manifest.Permission.AccessCoarseLocation)]
+[assembly: UsesPermission(Android.Manifest.Permission.AccessFineLocation)]
+[assembly: UsesFeature("android.hardware.location", Required = false)]
+[assembly: UsesFeature("android.hardware.location.gps", Required = false)]
+[assembly: UsesFeature("android.hardware.location.network", Required = false)]

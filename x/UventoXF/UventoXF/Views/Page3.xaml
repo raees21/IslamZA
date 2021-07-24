@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage
-    x:Class="UventoXF.Views.MainPage"
-    xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:control="clr-namespace:UventoXF.Controls"
-    xmlns:fonticons="clr-namespace:UventoXF.FontIcons"
-    NavigationPage.HasNavigationBar="False"
-    xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms">
-
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UventoXF.Views.Page3"
+             xmlns:fonticons="clr-namespace:UventoXF.FontIcons"
+             NavigationPage.HasNavigationBar="False">
     <Grid
         HorizontalOptions="FillAndExpand"
         RowDefinitions="*, auto"
@@ -57,65 +53,6 @@
                     HeightRequest="20"
                     Source="menu"
                     WidthRequest="20" />
-                <Grid
-                    Grid.Row="1"
-                    Grid.ColumnSpan="3"
-                    Margin="20,20,20,0"
-                    ColumnDefinitions="*, auto"
-                    RowDefinitions="auto, auto">
-                    <Label
-                        Grid.Row="0"
-                        FontFamily="MuliBlack"
-                        FontSize="20"
-                        Text="Islamic Times" />
-                </Grid>
-                <control:CalendarCarouselView
-                    x:Name="calendarView"
-                    Grid.Row="2"
-                    Grid.ColumnSpan="3"
-                    Margin="20,15,20,0"
-                    ItemsSource="{Binding Dates}"/>
-                <!--<control:ListEventTypesView
-                    Grid.Row="3"
-                    Grid.ColumnSpan="3"
-                    Margin="20,15,0,0"
-                    VerticalOptions="Start" />-->
-                <control:ListEventsView
-                    Grid.Row="4"
-                    Grid.ColumnSpan="3"
-                    Margin="20,0"
-                    VerticalOptions="Start" />
-                <StackLayout Orientation="Horizontal"
-                Grid.Row="3"
-                Margin="20,15,0,0">
-                    <Button x:Name="btnTasbeeh" 
-                    HorizontalOptions="End"
-                    BackgroundColor="#29404E"
-                    HeightRequest="100" 
-                    WidthRequest="120"
-                    Text="Tasbeeh Counter" 
-                    TextColor="White"
-                    FontSize="Small" 
-                    Command="{Binding NavigateToTasbeehPageCommand}"/>
-                    <Button x:Name="btnNegar" 
-                    HorizontalOptions="End"
-                    BackgroundColor="#29404E"
-                    HeightRequest="100" 
-                    WidthRequest="120"
-                    Text="99 Names" 
-                    TextColor="White"
-                    FontSize="Small"
-                    Command="{Binding NavigateTo99NamesPageCommand}"/>
-                    <Button x:Name="btnNega" 
-                    HorizontalOptions="End"
-                    BackgroundColor="#29404E"
-                    HeightRequest="100" 
-                    WidthRequest="120"
-                    Text="Qibla" 
-                    TextColor="White"
-                    FontSize="Small" 
-                    Command="{Binding NavigateToQiblaPageCommand}"/>
-                </StackLayout>
             </Grid>
         </ScrollView>
         <Grid
@@ -159,6 +96,7 @@
                         Text="Home"
                         TextColor="{StaticResource orange}"
                         VerticalTextAlignment="Center" />
+
                 </Grid>
             </Frame>
             <Frame
@@ -193,9 +131,6 @@
                         Text="Search"
                         VerticalTextAlignment="Center" />
                 </Grid>
-                <!--<Frame.GestureRecognizers>
-                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" />
-                </Frame.GestureRecognizers>-->
             </Frame>
             <Frame
                 x:Name="frameFavorite"

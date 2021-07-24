@@ -29,6 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Syncfusion.Xamarin.SfGauge" Version="18.1.0.42" />
     <PackageReference Include="Syncfusion.Xamarin.SfPdfViewer" Version="19.2.0.44" />
     <PackageReference Include="Xamarin.CommunityToolkit" Version="1.0.0" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
@@ -36,8 +37,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="Mono.Android">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v10.0\Mono.Android.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Controls\ListEventTypesView.xaml.cs">
       <DependentUpon>ListEventTypesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Qibla.xaml.cs">
+      <DependentUpon>Qibla.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\StartPage.xaml.cs">
       <DependentUpon>StartPage.xaml</DependentUpon>
@@ -58,6 +68,12 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Page1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Page3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Qibla.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
