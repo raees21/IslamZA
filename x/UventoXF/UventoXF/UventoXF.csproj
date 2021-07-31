@@ -29,6 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Syncfusion.Xamarin.SfGauge" Version="18.1.0.42" />
     <PackageReference Include="Syncfusion.Xamarin.SfPdfViewer" Version="19.2.0.44" />
     <PackageReference Include="Xamarin.CommunityToolkit" Version="1.0.0" />
