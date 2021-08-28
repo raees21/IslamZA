@@ -40,7 +40,7 @@
                 <Frame
                     Grid.Row="1"
                     Padding="20,15"
-                    BackgroundColor="#29404E"
+                    BackgroundColor="Silver"
                     CornerRadius="10"
                     HasShadow="False"
                     HeightRequest="30"
@@ -52,10 +52,10 @@
                             <ColumnDefinition Width="30*"/>
                             <ColumnDefinition Width="30*"/>
                         </Grid.ColumnDefinitions>
-                        <Label Grid.Column="0" Text="#" FontSize="13" TextColor="White" HorizontalOptions="Start" Margin="10,0,0,0" FontFamily="MuliBold"/>
-                        <Label Grid.Column="1" Text="Name" TextColor="White" FontSize="13" HorizontalOptions="Start" Margin="20,0,0,0" FontFamily="MuliBold"/>
-                        <Label Grid.Column="2" Text="Transliteration" TextColor="White" FontSize="13" HorizontalOptions="Start" Margin="0,0,0,0" FontFamily="MuliBold"/>
-                        <Label Grid.Column="3" Text="Meaning" TextColor="White" FontSize="13" HorizontalOptions="Start" Margin="15,0,0,0" FontFamily="MuliBold" />
+                        <Label Grid.Column="0" Text="#" FontSize="13" TextColor="Black" HorizontalOptions="Start" Margin="10,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="1" Text="Name" TextColor="black" FontSize="13" HorizontalOptions="Start" Margin="20,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="2" Text="Transliteration" TextColor="Black" FontSize="13" HorizontalOptions="Start" Margin="0,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="3" Text="Meaning" TextColor="Black" FontSize="13" HorizontalOptions="Start" Margin="15,0,0,0" FontFamily="MuliBold" />
                     </Grid>
                 </Frame>
                 <Frame
@@ -82,7 +82,7 @@
                 <Frame
                     Grid.Row="3"
                     Padding="20,15"
-                    BackgroundColor="#29404E"
+                    BackgroundColor="Silver"
                     CornerRadius="10"
                     HasShadow="False"
                     HeightRequest="30"
@@ -94,10 +94,304 @@
                             <ColumnDefinition Width="30*"/>
                             <ColumnDefinition Width="30*"/>
                         </Grid.ColumnDefinitions>
-                        <Label Grid.Column="0" Text="2" FontSize="15" TextColor="White" HorizontalOptions="Start" Margin="10,0,0,0" FontFamily="MuliBold"/>
-                        <Label Grid.Column="1" Text="ٱلْرَّحِيْمُ" TextColor="White" FontSize="20" HorizontalOptions="Start" Margin="20,0,0,0" FontFamily="MuliBold"/>
-                        <Label Grid.Column="2" Text="AR-RAHEEM" TextColor="White" FontSize="13" HorizontalOptions="Start" Margin="0,0,0,0" FontFamily="MuliBold"/>
-                        <Label Grid.Column="3" Text="The Bestower of Mercy" TextColor="White" FontSize="10" HorizontalOptions="Start" Margin="15,0,0,0" FontFamily="MuliBold" />
+                        <Label Grid.Column="0" Text="2" FontSize="15" TextColor="black" HorizontalOptions="Start" Margin="10,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="1" Text="ٱلْرَّحِيْمُ" TextColor="black" FontSize="20" HorizontalOptions="Start" Margin="20,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="2" Text="AR-RAHEEM" TextColor="black" FontSize="13" HorizontalOptions="Start" Margin="0,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="3" Text="The Bestower of Mercy" TextColor="black" FontSize="10" HorizontalOptions="Start" Margin="15,0,0,0" FontFamily="MuliBold" />
+                    </Grid>
+                </Frame>
+                <Frame
+                    Grid.Row="4"
+                    Padding="20,15"
+                    BackgroundColor="Silver"
+                    CornerRadius="10"
+                    HasShadow="False"
+                    HeightRequest="30"
+                    IsClippedToBounds="True">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text="2" FontSize="15" TextColor="black" HorizontalOptions="Start" Margin="10,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="1" Text="ٱلْرَّحِيْمُ" TextColor="black" FontSize="20" HorizontalOptions="Start" Margin="20,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="2" Text="AR-RAHEEM" TextColor="black" FontSize="13" HorizontalOptions="Start" Margin="0,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="3" Text="The Bestower of Mercy" TextColor="black" FontSize="10" HorizontalOptions="Start" Margin="15,0,0,0" FontFamily="MuliBold" />
+                    </Grid>
+                </Frame>
+                <Frame
+                    Grid.Row="5"
+                    Padding="20,15"
+                    BackgroundColor="Silver"
+                    CornerRadius="10"
+                    HasShadow="False"
+                    HeightRequest="30"
+                    IsClippedToBounds="True">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text="2" FontSize="15" TextColor="black" HorizontalOptions="Start" Margin="10,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="1" Text="ٱلْرَّحِيْمُ" TextColor="black" FontSize="20" HorizontalOptions="Start" Margin="20,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="2" Text="AR-RAHEEM" TextColor="black" FontSize="13" HorizontalOptions="Start" Margin="0,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="3" Text="The Bestower of Mercy" TextColor="black" FontSize="10" HorizontalOptions="Start" Margin="15,0,0,0" FontFamily="MuliBold" />
+                    </Grid>
+                </Frame>
+                <Frame
+                    Grid.Row="6"
+                    Padding="20,15"
+                    BackgroundColor="Silver"
+                    CornerRadius="10"
+                    HasShadow="False"
+                    HeightRequest="30"
+                    IsClippedToBounds="True">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text="2" FontSize="15" TextColor="black" HorizontalOptions="Start" Margin="10,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="1" Text="ٱلْرَّحِيْمُ" TextColor="black" FontSize="20" HorizontalOptions="Start" Margin="20,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="2" Text="AR-RAHEEM" TextColor="black" FontSize="13" HorizontalOptions="Start" Margin="0,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="3" Text="The Bestower of Mercy" TextColor="black" FontSize="10" HorizontalOptions="Start" Margin="15,0,0,0" FontFamily="MuliBold" />
+                    </Grid>
+                </Frame>
+                <Frame
+                    Grid.Row="7"
+                    Padding="20,15"
+                    BackgroundColor="Silver"
+                    CornerRadius="10"
+                    HasShadow="False"
+                    HeightRequest="30"
+                    IsClippedToBounds="True">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text="2" FontSize="15" TextColor="black" HorizontalOptions="Start" Margin="10,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="1" Text="ٱلْرَّحِيْمُ" TextColor="black" FontSize="20" HorizontalOptions="Start" Margin="20,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="2" Text="AR-RAHEEM" TextColor="black" FontSize="13" HorizontalOptions="Start" Margin="0,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="3" Text="The Bestower of Mercy" TextColor="black" FontSize="10" HorizontalOptions="Start" Margin="15,0,0,0" FontFamily="MuliBold" />
+                    </Grid>
+                </Frame>
+                <Frame
+                    Grid.Row="8"
+                    Padding="20,15"
+                    BackgroundColor="Silver"
+                    CornerRadius="10"
+                    HasShadow="False"
+                    HeightRequest="30"
+                    IsClippedToBounds="True">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text="2" FontSize="15" TextColor="black" HorizontalOptions="Start" Margin="10,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="1" Text="ٱلْرَّحِيْمُ" TextColor="black" FontSize="20" HorizontalOptions="Start" Margin="20,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="2" Text="AR-RAHEEM" TextColor="black" FontSize="13" HorizontalOptions="Start" Margin="0,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="3" Text="The Bestower of Mercy" TextColor="black" FontSize="10" HorizontalOptions="Start" Margin="15,0,0,0" FontFamily="MuliBold" />
+                    </Grid>
+                </Frame>
+                <Frame
+                    Grid.Row="9"
+                    Padding="20,15"
+                    BackgroundColor="Silver"
+                    CornerRadius="10"
+                    HasShadow="False"
+                    HeightRequest="30"
+                    IsClippedToBounds="True">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text="2" FontSize="15" TextColor="black" HorizontalOptions="Start" Margin="10,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="1" Text="ٱلْرَّحِيْمُ" TextColor="black" FontSize="20" HorizontalOptions="Start" Margin="20,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="2" Text="AR-RAHEEM" TextColor="black" FontSize="13" HorizontalOptions="Start" Margin="0,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="3" Text="The Bestower of Mercy" TextColor="black" FontSize="10" HorizontalOptions="Start" Margin="15,0,0,0" FontFamily="MuliBold" />
+                    </Grid>
+                </Frame>
+                <Frame
+                    Grid.Row="10"
+                    Padding="20,15"
+                    BackgroundColor="Silver"
+                    CornerRadius="10"
+                    HasShadow="False"
+                    HeightRequest="30"
+                    IsClippedToBounds="True">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text="2" FontSize="15" TextColor="black" HorizontalOptions="Start" Margin="10,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="1" Text="ٱلْرَّحِيْمُ" TextColor="black" FontSize="20" HorizontalOptions="Start" Margin="20,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="2" Text="AR-RAHEEM" TextColor="black" FontSize="13" HorizontalOptions="Start" Margin="0,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="3" Text="The Bestower of Mercy" TextColor="black" FontSize="10" HorizontalOptions="Start" Margin="15,0,0,0" FontFamily="MuliBold" />
+                    </Grid>
+                </Frame>
+                <Frame
+                    Grid.Row="11"
+                    Padding="20,15"
+                    BackgroundColor="Silver"
+                    CornerRadius="10"
+                    HasShadow="False"
+                    HeightRequest="30"
+                    IsClippedToBounds="True">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text="2" FontSize="15" TextColor="black" HorizontalOptions="Start" Margin="10,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="1" Text="ٱلْرَّحِيْمُ" TextColor="black" FontSize="20" HorizontalOptions="Start" Margin="20,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="2" Text="AR-RAHEEM" TextColor="black" FontSize="13" HorizontalOptions="Start" Margin="0,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="3" Text="The Bestower of Mercy" TextColor="black" FontSize="10" HorizontalOptions="Start" Margin="15,0,0,0" FontFamily="MuliBold" />
+                    </Grid>
+                </Frame>
+                <Frame
+                    Grid.Row="12"
+                    Padding="20,15"
+                    BackgroundColor="Silver"
+                    CornerRadius="10"
+                    HasShadow="False"
+                    HeightRequest="30"
+                    IsClippedToBounds="True">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text="2" FontSize="15" TextColor="black" HorizontalOptions="Start" Margin="10,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="1" Text="ٱلْرَّحِيْمُ" TextColor="black" FontSize="20" HorizontalOptions="Start" Margin="20,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="2" Text="AR-RAHEEM" TextColor="black" FontSize="13" HorizontalOptions="Start" Margin="0,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="3" Text="The Bestower of Mercy" TextColor="black" FontSize="10" HorizontalOptions="Start" Margin="15,0,0,0" FontFamily="MuliBold" />
+                    </Grid>
+                </Frame>
+                <Frame
+                    Grid.Row="13"
+                    Padding="20,15"
+                    BackgroundColor="Silver"
+                    CornerRadius="10"
+                    HasShadow="False"
+                    HeightRequest="30"
+                    IsClippedToBounds="True">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text="2" FontSize="15" TextColor="black" HorizontalOptions="Start" Margin="10,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="1" Text="ٱلْرَّحِيْمُ" TextColor="black" FontSize="20" HorizontalOptions="Start" Margin="20,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="2" Text="AR-RAHEEM" TextColor="black" FontSize="13" HorizontalOptions="Start" Margin="0,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="3" Text="The Bestower of Mercy" TextColor="black" FontSize="10" HorizontalOptions="Start" Margin="15,0,0,0" FontFamily="MuliBold" />
+                    </Grid>
+                </Frame>
+                <Frame
+                    Grid.Row="14"
+                    Padding="20,15"
+                    BackgroundColor="Silver"
+                    CornerRadius="10"
+                    HasShadow="False"
+                    HeightRequest="30"
+                    IsClippedToBounds="True">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text="2" FontSize="15" TextColor="black" HorizontalOptions="Start" Margin="10,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="1" Text="ٱلْرَّحِيْمُ" TextColor="black" FontSize="20" HorizontalOptions="Start" Margin="20,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="2" Text="AR-RAHEEM" TextColor="black" FontSize="13" HorizontalOptions="Start" Margin="0,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="3" Text="The Bestower of Mercy" TextColor="black" FontSize="10" HorizontalOptions="Start" Margin="15,0,0,0" FontFamily="MuliBold" />
+                    </Grid>
+                </Frame>
+                <Frame
+                    Grid.Row="15"
+                    Padding="20,15"
+                    BackgroundColor="Silver"
+                    CornerRadius="10"
+                    HasShadow="False"
+                    HeightRequest="30"
+                    IsClippedToBounds="True">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text="2" FontSize="15" TextColor="black" HorizontalOptions="Start" Margin="10,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="1" Text="ٱلْرَّحِيْمُ" TextColor="black" FontSize="20" HorizontalOptions="Start" Margin="20,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="2" Text="AR-RAHEEM" TextColor="black" FontSize="13" HorizontalOptions="Start" Margin="0,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="3" Text="The Bestower of Mercy" TextColor="black" FontSize="10" HorizontalOptions="Start" Margin="15,0,0,0" FontFamily="MuliBold" />
+                    </Grid>
+                </Frame>
+                <Frame
+                    Grid.Row="16"
+                    Padding="20,15"
+                    BackgroundColor="Silver"
+                    CornerRadius="10"
+                    HasShadow="False"
+                    HeightRequest="30"
+                    IsClippedToBounds="True">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text="2" FontSize="15" TextColor="black" HorizontalOptions="Start" Margin="10,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="1" Text="ٱلْرَّحِيْمُ" TextColor="black" FontSize="20" HorizontalOptions="Start" Margin="20,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="2" Text="AR-RAHEEM" TextColor="black" FontSize="13" HorizontalOptions="Start" Margin="0,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="3" Text="The Bestower of Mercy" TextColor="black" FontSize="10" HorizontalOptions="Start" Margin="15,0,0,0" FontFamily="MuliBold" />
+                    </Grid>
+                </Frame>
+                <Frame
+                    Grid.Row="17"
+                    Padding="20,15"
+                    BackgroundColor="Silver"
+                    CornerRadius="10"
+                    HasShadow="False"
+                    HeightRequest="30"
+                    IsClippedToBounds="True">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Column="0" Text="2" FontSize="15" TextColor="black" HorizontalOptions="Start" Margin="10,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="1" Text="ٱلْرَّحِيْمُ" TextColor="black" FontSize="20" HorizontalOptions="Start" Margin="20,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="2" Text="AR-RAHEEM" TextColor="black" FontSize="13" HorizontalOptions="Start" Margin="0,0,0,0" FontFamily="MuliBold"/>
+                        <Label Grid.Column="3" Text="The Bestower of Mercy" TextColor="black" FontSize="10" HorizontalOptions="Start" Margin="15,0,0,0" FontFamily="MuliBold" />
                     </Grid>
                 </Frame>
             </Grid>

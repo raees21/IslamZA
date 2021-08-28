@@ -6,7 +6,7 @@
     xmlns:control="clr-namespace:UventoXF.Controls"
     xmlns:fonticons="clr-namespace:UventoXF.FontIcons"
     NavigationPage.HasNavigationBar="False"
-    xmlns:syncfusion="clr-namespace:Syncfusion.SfPdfViewer.XForms;assembly=Syncfusion.SfPdfViewer.XForms">
+    xmlns:viewmodels="clr-namespace:UventoXF.ViewModels" x:DataType="viewmodels:MainPageViewModel">
 
     <Grid
         HorizontalOptions="FillAndExpand"
@@ -69,30 +69,177 @@
                         FontSize="20"
                         Text="Islamic Times" />
                 </Grid>
-                <control:CalendarCarouselView
-                    x:Name="calendarView"
+                <Grid
                     Grid.Row="2"
-                    Grid.ColumnSpan="3"
-                    Margin="20,15,20,0"
-                    ItemsSource="{Binding Dates}"/>
-                <!--<control:ListEventTypesView
-                    Grid.Row="3"
-                    Grid.ColumnSpan="3"
-                    Margin="20,15,0,0"
-                    VerticalOptions="Start" />-->
-                <control:ListEventsView
-                    Grid.Row="4"
-                    Grid.ColumnSpan="3"
-                    Margin="20,0"
-                    VerticalOptions="Start" />
-                <StackLayout Orientation="Horizontal"
-                Grid.Row="3"
-                Margin="20,15,0,0">
+                    HorizontalOptions="CenterAndExpand"
+                    Margin="10,15,5,0"
+                    Grid.ColumnSpan="3">
+                    <Frame
+                            Padding="5,0,5,5"
+                            BackgroundColor="Transparent"
+                            CornerRadius="10"
+                            HasShadow="False"
+                            IsClippedToBounds="True"
+                            WidthRequest="65"
+                        Grid.Column="0">
+                        <Grid
+                                HorizontalOptions="Center"
+                                RowDefinitions="auto, auto"
+                                VerticalOptions="CenterAndExpand">
+                            <Label
+                                    Grid.Row="1"
+                                    Grid.Column="0"
+                                    FontFamily="MuliBold"
+                                    FontSize="16"
+                                    HorizontalTextAlignment="Center"
+                                    Text="Fajr"
+                                    TextColor="#FFA700" />
+                            <Label
+                                    Grid.Row="2"
+                                    Grid.Column="0"
+                                    FontFamily="MuliBold"
+                                    FontSize="13"
+                                    HorizontalTextAlignment="Center"
+                                    Text="" x:Name="FajrTime"
+                                    TextColor="White" />
+                        </Grid>
+                    </Frame>
+                    <Frame
+                            Padding="5,0,5,5"
+                            BackgroundColor="Transparent"
+                            CornerRadius="10"
+                            HasShadow="False"
+                            IsClippedToBounds="True"
+                            WidthRequest="65"
+                        Grid.Column="1">
+                        <Grid
+                                HorizontalOptions="Center"
+                                RowDefinitions="auto, auto"
+                                VerticalOptions="CenterAndExpand">
+                            <Label
+                                    Grid.Row="1"
+                                    Grid.Column="0"
+                                    FontFamily="MuliBold"
+                                    FontSize="16"
+                                    HorizontalTextAlignment="Center"
+                                    Text="Zohr"
+                                    TextColor="#FFA700" />
+                            <Label
+                                    Grid.Row="2"
+                                    Grid.Column="0"
+                                    FontFamily="MuliBold"
+                                    FontSize="13"
+                                    HorizontalTextAlignment="Center"
+                                    Text="" x:Name="ZohrTime"
+                                    TextColor="White" />
+                        </Grid>
+                    </Frame>
+                    <Frame
+                            Padding="5,0,5,5"
+                            BackgroundColor="Transparent"
+                            CornerRadius="10"
+                            HasShadow="False"
+                            IsClippedToBounds="True"
+                            WidthRequest="65"
+                        Grid.Column="2">
+                        <Grid
+                                HorizontalOptions="Center"
+                                RowDefinitions="auto, auto"
+                                VerticalOptions="CenterAndExpand">
+                            <Label
+                                    Grid.Row="1"
+                                    Grid.Column="0"
+                                    FontFamily="MuliBold"
+                                    FontSize="16"
+                                    HorizontalTextAlignment="Center"
+                                    Text="Asr"
+                                    TextColor="#FFA700" />
+                            <Label
+                                    Grid.Row="2"
+                                    Grid.Column="0"
+                                    FontFamily="MuliBold"
+                                    FontSize="13"
+                                    HorizontalTextAlignment="Center"
+                                    Text="" x:Name="AsrTime"
+                                    TextColor="White" />
+                        </Grid>
+                    </Frame>
+                    <Frame
+                            Padding="5,0,5,5"
+                            BackgroundColor="Transparent"
+                            CornerRadius="10"
+                            HasShadow="False"
+                            IsClippedToBounds="True"
+                            WidthRequest="65"
+                        Grid.Column="3">
+                        <Grid
+                                HorizontalOptions="Center"
+                                RowDefinitions="auto, auto"
+                                VerticalOptions="CenterAndExpand">
+                            <Label
+                                    Grid.Row="1"
+                                    Grid.Column="0"
+                                    FontFamily="MuliBold"
+                                    FontSize="16"
+                                    HorizontalTextAlignment="Center"
+                                    Text="Maghrib"
+                                    TextColor="#FFA700" />
+                            <Label
+                                    Grid.Row="2"
+                                    Grid.Column="0"
+                                    FontFamily="MuliBold"
+                                    FontSize="13"
+                                    HorizontalTextAlignment="Center"
+                                    Text="" x:Name="MaghribTime"
+                                    TextColor="White" />
+                        </Grid>
+                    </Frame>
+                    <Frame
+                            Padding="5,0,5,5"
+                            BackgroundColor="Transparent"
+                            CornerRadius="10"
+                            HasShadow="False"
+                            IsClippedToBounds="True"
+                            WidthRequest="65"
+                        Grid.Column="4">
+                        <Grid
+                                HorizontalOptions="Center"
+                                RowDefinitions="auto, auto"
+                                VerticalOptions="CenterAndExpand">
+                            <Label
+                                    Grid.Row="1"
+                                    Grid.Column="0"
+                                    FontFamily="MuliBold"
+                                    FontSize="16"
+                                    HorizontalTextAlignment="Center"
+                                    Text="Esha"
+                                    TextColor="#FFA700" />
+                            <Label
+                                    Grid.Row="2"
+                                    Grid.Column="0"
+                                    FontFamily="MuliBold"
+                                    FontSize="13"
+                                    HorizontalTextAlignment="Center"
+                                    Text="" x:Name="EshaTime"
+                                    TextColor="White" />
+                        </Grid>
+                    </Frame>
+                </Grid>
+
+                <StackLayout
+                    Grid.Row="5"
+                    Margin="20,15,0,0">
+                    <Label Text="Hello">
+                    </Label>
+                </StackLayout>
+                <Grid
+                Grid.Row="4"
+                Margin="20,15,0,0"
+                HeightRequest="100"
+                WidthRequest="100">
                     <Button x:Name="btnTasbeeh" 
                     HorizontalOptions="End"
                     BackgroundColor="#29404E"
-                    HeightRequest="100" 
-                    WidthRequest="120"
                     Text="Tasbeeh Counter" 
                     TextColor="White"
                     FontSize="Small" 
@@ -100,8 +247,6 @@
                     <Button x:Name="btnNegar" 
                     HorizontalOptions="End"
                     BackgroundColor="#29404E"
-                    HeightRequest="100" 
-                    WidthRequest="120"
                     Text="99 Names" 
                     TextColor="White"
                     FontSize="Small"
@@ -109,12 +254,21 @@
                     <Button x:Name="btnNega" 
                     HorizontalOptions="End"
                     BackgroundColor="#29404E"
-                    HeightRequest="100" 
-                    WidthRequest="120"
                     Text="Qibla" 
                     TextColor="White"
                     FontSize="Small" 
                     Command="{Binding NavigateToQiblaPageCommand}"/>
+                </Grid>
+                
+                <StackLayout
+                    Grid.Row="3"
+                    Margin="20,0,0,0"
+                    Grid.ColumnSpan="3"
+                    Orientation="Horizontal">
+                    <Button x:Name="btnLocation" Text="Get Location" Clicked="btnLocation_Clicked" WidthRequest="125" HeightRequest="40"/>
+                    <Label HorizontalTextAlignment="Center" Text="" x:Name="Lat"></Label>
+                    <Label HorizontalTextAlignment="Center" Text="" x:Name="Long"></Label>
+                    <Label HorizontalTextAlignment="Center" Text="" x:Name="Location"></Label>
                 </StackLayout>
             </Grid>
         </ScrollView>

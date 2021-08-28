@@ -5,7 +5,16 @@ namespace UventoXF.Models
     public class DateItem : BaseViewModel
     {
         public string month { get; set; }
-        public string day { get; set; }
+        public string _day;
+        public string day
+        {
+            get => _day;
+            set
+            {
+                _day = value;
+                OnPropertyChanged("day");
+            }
+        }
         public string dayWeek { get; set; }
         public bool selected { get; set; }
 
