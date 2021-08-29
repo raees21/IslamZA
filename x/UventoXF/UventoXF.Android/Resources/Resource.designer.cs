@@ -419,6 +419,9 @@ namespace UventoXF.Droid
 			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_symbolPointerStrokeWidth = global::UventoXF.Droid.Resource.Styleable.SfLinearGauge_symbolPointerStrokeWidth;
 			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_symbolPointerValue = global::UventoXF.Droid.Resource.Styleable.SfLinearGauge_symbolPointerValue;
 			global::Com.Syncfusion.Gauges.Resource.Styleable.SfLinearGauge_symbolPosition = global::UventoXF.Droid.Resource.Styleable.SfLinearGauge_symbolPosition;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.ApplicationName = global::UventoXF.Droid.Resource.String.ApplicationName;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.Hello = global::UventoXF.Droid.Resource.String.Hello;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.Load_More = global::UventoXF.Droid.Resource.String.Load_More;
 			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.AlertViewDialogBottomLine = global::UventoXF.Droid.Resource.Drawable.AlertViewDialogBottomLine;
 			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.FormFieldCheckbox = global::UventoXF.Droid.Resource.Drawable.FormFieldCheckbox;
 			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.FormFieldCheckbox_Checked = global::UventoXF.Droid.Resource.Drawable.FormFieldCheckbox_Checked;
@@ -18297,548 +18300,551 @@ namespace UventoXF.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7F0E000A
-			public const int abc_action_bar_home_description = 2131623946;
-			
 			// aapt resource value: 0x7F0E000B
-			public const int abc_action_bar_up_description = 2131623947;
+			public const int abc_action_bar_home_description = 2131623947;
 			
 			// aapt resource value: 0x7F0E000C
-			public const int abc_action_menu_overflow_description = 2131623948;
+			public const int abc_action_bar_up_description = 2131623948;
 			
 			// aapt resource value: 0x7F0E000D
-			public const int abc_action_mode_done = 2131623949;
-			
-			// aapt resource value: 0x7F0E000F
-			public const int abc_activitychooserview_choose_application = 2131623951;
+			public const int abc_action_menu_overflow_description = 2131623949;
 			
 			// aapt resource value: 0x7F0E000E
-			public const int abc_activity_chooser_view_see_all = 2131623950;
+			public const int abc_action_mode_done = 2131623950;
 			
 			// aapt resource value: 0x7F0E0010
-			public const int abc_capital_off = 2131623952;
+			public const int abc_activitychooserview_choose_application = 2131623952;
+			
+			// aapt resource value: 0x7F0E000F
+			public const int abc_activity_chooser_view_see_all = 2131623951;
 			
 			// aapt resource value: 0x7F0E0011
-			public const int abc_capital_on = 2131623953;
+			public const int abc_capital_off = 2131623953;
 			
 			// aapt resource value: 0x7F0E0012
-			public const int abc_menu_alt_shortcut_label = 2131623954;
+			public const int abc_capital_on = 2131623954;
 			
 			// aapt resource value: 0x7F0E0013
-			public const int abc_menu_ctrl_shortcut_label = 2131623955;
+			public const int abc_menu_alt_shortcut_label = 2131623955;
 			
 			// aapt resource value: 0x7F0E0014
-			public const int abc_menu_delete_shortcut_label = 2131623956;
+			public const int abc_menu_ctrl_shortcut_label = 2131623956;
 			
 			// aapt resource value: 0x7F0E0015
-			public const int abc_menu_enter_shortcut_label = 2131623957;
+			public const int abc_menu_delete_shortcut_label = 2131623957;
 			
 			// aapt resource value: 0x7F0E0016
-			public const int abc_menu_function_shortcut_label = 2131623958;
+			public const int abc_menu_enter_shortcut_label = 2131623958;
 			
 			// aapt resource value: 0x7F0E0017
-			public const int abc_menu_meta_shortcut_label = 2131623959;
+			public const int abc_menu_function_shortcut_label = 2131623959;
 			
 			// aapt resource value: 0x7F0E0018
-			public const int abc_menu_shift_shortcut_label = 2131623960;
+			public const int abc_menu_meta_shortcut_label = 2131623960;
 			
 			// aapt resource value: 0x7F0E0019
-			public const int abc_menu_space_shortcut_label = 2131623961;
+			public const int abc_menu_shift_shortcut_label = 2131623961;
 			
 			// aapt resource value: 0x7F0E001A
-			public const int abc_menu_sym_shortcut_label = 2131623962;
+			public const int abc_menu_space_shortcut_label = 2131623962;
 			
 			// aapt resource value: 0x7F0E001B
-			public const int abc_prepend_shortcut_label = 2131623963;
-			
-			// aapt resource value: 0x7F0E001D
-			public const int abc_searchview_description_clear = 2131623965;
-			
-			// aapt resource value: 0x7F0E001E
-			public const int abc_searchview_description_query = 2131623966;
-			
-			// aapt resource value: 0x7F0E001F
-			public const int abc_searchview_description_search = 2131623967;
-			
-			// aapt resource value: 0x7F0E0020
-			public const int abc_searchview_description_submit = 2131623968;
-			
-			// aapt resource value: 0x7F0E0021
-			public const int abc_searchview_description_voice = 2131623969;
+			public const int abc_menu_sym_shortcut_label = 2131623963;
 			
 			// aapt resource value: 0x7F0E001C
-			public const int abc_search_hint = 2131623964;
+			public const int abc_prepend_shortcut_label = 2131623964;
+			
+			// aapt resource value: 0x7F0E001E
+			public const int abc_searchview_description_clear = 2131623966;
+			
+			// aapt resource value: 0x7F0E001F
+			public const int abc_searchview_description_query = 2131623967;
+			
+			// aapt resource value: 0x7F0E0020
+			public const int abc_searchview_description_search = 2131623968;
+			
+			// aapt resource value: 0x7F0E0021
+			public const int abc_searchview_description_submit = 2131623969;
 			
 			// aapt resource value: 0x7F0E0022
-			public const int abc_shareactionprovider_share_with = 2131623970;
+			public const int abc_searchview_description_voice = 2131623970;
+			
+			// aapt resource value: 0x7F0E001D
+			public const int abc_search_hint = 2131623965;
 			
 			// aapt resource value: 0x7F0E0023
-			public const int abc_shareactionprovider_share_with_application = 2131623971;
+			public const int abc_shareactionprovider_share_with = 2131623971;
 			
 			// aapt resource value: 0x7F0E0024
-			public const int abc_toolbar_collapse_description = 2131623972;
+			public const int abc_shareactionprovider_share_with_application = 2131623972;
 			
 			// aapt resource value: 0x7F0E0025
-			public const int appbar_scrolling_view_behavior = 2131623973;
+			public const int abc_toolbar_collapse_description = 2131623973;
+			
+			// aapt resource value: 0x7F0E0026
+			public const int appbar_scrolling_view_behavior = 2131623974;
 			
 			// aapt resource value: 0x7F0E0000
 			public const int ApplicationName = 2131623936;
 			
-			// aapt resource value: 0x7F0E0026
-			public const int bottom_sheet_behavior = 2131623974;
-			
 			// aapt resource value: 0x7F0E0027
-			public const int character_counter_content_description = 2131623975;
+			public const int bottom_sheet_behavior = 2131623975;
 			
 			// aapt resource value: 0x7F0E0028
-			public const int character_counter_overflowed_content_description = 2131623976;
+			public const int character_counter_content_description = 2131623976;
 			
 			// aapt resource value: 0x7F0E0029
-			public const int character_counter_pattern = 2131623977;
+			public const int character_counter_overflowed_content_description = 2131623977;
 			
 			// aapt resource value: 0x7F0E002A
-			public const int chip_text = 2131623978;
+			public const int character_counter_pattern = 2131623978;
 			
 			// aapt resource value: 0x7F0E002B
-			public const int clear_text_end_icon_content_description = 2131623979;
+			public const int chip_text = 2131623979;
 			
 			// aapt resource value: 0x7F0E002C
-			public const int copy_toast_msg = 2131623980;
+			public const int clear_text_end_icon_content_description = 2131623980;
 			
 			// aapt resource value: 0x7F0E002D
-			public const int error_icon_content_description = 2131623981;
+			public const int copy_toast_msg = 2131623981;
 			
 			// aapt resource value: 0x7F0E002E
-			public const int exposed_dropdown_menu_content_description = 2131623982;
+			public const int error_icon_content_description = 2131623982;
 			
 			// aapt resource value: 0x7F0E002F
-			public const int fab_transformation_scrim_behavior = 2131623983;
+			public const int exposed_dropdown_menu_content_description = 2131623983;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int fab_transformation_sheet_behavior = 2131623984;
+			public const int fab_transformation_scrim_behavior = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int fallback_menu_item_copy_link = 2131623985;
+			public const int fab_transformation_sheet_behavior = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int fallback_menu_item_open_in_browser = 2131623986;
+			public const int fallback_menu_item_copy_link = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int fallback_menu_item_share_link = 2131623987;
+			public const int fallback_menu_item_open_in_browser = 2131623987;
+			
+			// aapt resource value: 0x7F0E0034
+			public const int fallback_menu_item_share_link = 2131623988;
 			
 			// aapt resource value: 0x7F0E0001
 			public const int Hello = 2131623937;
 			
-			// aapt resource value: 0x7F0E0034
-			public const int hide_bottom_view_on_scroll_behavior = 2131623988;
-			
 			// aapt resource value: 0x7F0E0035
-			public const int icon_content_description = 2131623989;
+			public const int hide_bottom_view_on_scroll_behavior = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int item_view_role_description = 2131623990;
+			public const int icon_content_description = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int library_name = 2131623991;
+			public const int item_view_role_description = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int material_slider_range_end = 2131623992;
-			
-			// aapt resource value: 0x7F0E0039
-			public const int material_slider_range_start = 2131623993;
-			
-			// aapt resource value: 0x7F0E003A
-			public const int mtrl_badge_numberless_content_description = 2131623994;
-			
-			// aapt resource value: 0x7F0E003B
-			public const int mtrl_chip_close_icon_content_description = 2131623995;
-			
-			// aapt resource value: 0x7F0E003C
-			public const int mtrl_exceed_max_badge_number_content_description = 2131623996;
-			
-			// aapt resource value: 0x7F0E003D
-			public const int mtrl_exceed_max_badge_number_suffix = 2131623997;
-			
-			// aapt resource value: 0x7F0E003E
-			public const int mtrl_picker_a11y_next_month = 2131623998;
-			
-			// aapt resource value: 0x7F0E003F
-			public const int mtrl_picker_a11y_prev_month = 2131623999;
-			
-			// aapt resource value: 0x7F0E0040
-			public const int mtrl_picker_announce_current_selection = 2131624000;
-			
-			// aapt resource value: 0x7F0E0041
-			public const int mtrl_picker_cancel = 2131624001;
-			
-			// aapt resource value: 0x7F0E0042
-			public const int mtrl_picker_confirm = 2131624002;
-			
-			// aapt resource value: 0x7F0E0043
-			public const int mtrl_picker_date_header_selected = 2131624003;
-			
-			// aapt resource value: 0x7F0E0044
-			public const int mtrl_picker_date_header_title = 2131624004;
-			
-			// aapt resource value: 0x7F0E0045
-			public const int mtrl_picker_date_header_unselected = 2131624005;
-			
-			// aapt resource value: 0x7F0E0046
-			public const int mtrl_picker_day_of_week_column_header = 2131624006;
-			
-			// aapt resource value: 0x7F0E0047
-			public const int mtrl_picker_invalid_format = 2131624007;
-			
-			// aapt resource value: 0x7F0E0048
-			public const int mtrl_picker_invalid_format_example = 2131624008;
-			
-			// aapt resource value: 0x7F0E0049
-			public const int mtrl_picker_invalid_format_use = 2131624009;
-			
-			// aapt resource value: 0x7F0E004A
-			public const int mtrl_picker_invalid_range = 2131624010;
-			
-			// aapt resource value: 0x7F0E004B
-			public const int mtrl_picker_navigate_to_year_description = 2131624011;
-			
-			// aapt resource value: 0x7F0E004C
-			public const int mtrl_picker_out_of_range = 2131624012;
-			
-			// aapt resource value: 0x7F0E004D
-			public const int mtrl_picker_range_header_only_end_selected = 2131624013;
-			
-			// aapt resource value: 0x7F0E004E
-			public const int mtrl_picker_range_header_only_start_selected = 2131624014;
-			
-			// aapt resource value: 0x7F0E004F
-			public const int mtrl_picker_range_header_selected = 2131624015;
-			
-			// aapt resource value: 0x7F0E0050
-			public const int mtrl_picker_range_header_title = 2131624016;
-			
-			// aapt resource value: 0x7F0E0051
-			public const int mtrl_picker_range_header_unselected = 2131624017;
-			
-			// aapt resource value: 0x7F0E0052
-			public const int mtrl_picker_save = 2131624018;
-			
-			// aapt resource value: 0x7F0E0053
-			public const int mtrl_picker_text_input_date_hint = 2131624019;
-			
-			// aapt resource value: 0x7F0E0054
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624020;
-			
-			// aapt resource value: 0x7F0E0055
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624021;
-			
-			// aapt resource value: 0x7F0E0056
-			public const int mtrl_picker_text_input_day_abbr = 2131624022;
-			
-			// aapt resource value: 0x7F0E0057
-			public const int mtrl_picker_text_input_month_abbr = 2131624023;
-			
-			// aapt resource value: 0x7F0E0058
-			public const int mtrl_picker_text_input_year_abbr = 2131624024;
-			
-			// aapt resource value: 0x7F0E0059
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624025;
-			
-			// aapt resource value: 0x7F0E005A
-			public const int mtrl_picker_toggle_to_day_selection = 2131624026;
-			
-			// aapt resource value: 0x7F0E005B
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624027;
-			
-			// aapt resource value: 0x7F0E005C
-			public const int mtrl_picker_toggle_to_year_selection = 2131624028;
-			
-			// aapt resource value: 0x7F0E005D
-			public const int overflow_tab_title = 2131624029;
-			
-			// aapt resource value: 0x7F0E005E
-			public const int password_toggle_content_description = 2131624030;
-			
-			// aapt resource value: 0x7F0E005F
-			public const int path_password_eye = 2131624031;
-			
-			// aapt resource value: 0x7F0E0060
-			public const int path_password_eye_mask_strike_through = 2131624032;
-			
-			// aapt resource value: 0x7F0E0061
-			public const int path_password_eye_mask_visible = 2131624033;
-			
-			// aapt resource value: 0x7F0E0062
-			public const int path_password_strike_through = 2131624034;
-			
-			// aapt resource value: 0x7F0E0063
-			public const int search_menu_title = 2131624035;
+			public const int library_name = 2131623992;
 			
 			// aapt resource value: 0x7F0E0002
-			public const int SfPdfViewerCancel = 2131623938;
+			public const int Load_More = 2131623938;
 			
-			// aapt resource value: 0x7F0E0003
-			public const int SfPdfViewerCopy = 2131623939;
+			// aapt resource value: 0x7F0E0039
+			public const int material_slider_range_end = 2131623993;
 			
-			// aapt resource value: 0x7F0E0004
-			public const int SfPdfViewerHighlight = 2131623940;
+			// aapt resource value: 0x7F0E003A
+			public const int material_slider_range_start = 2131623994;
 			
-			// aapt resource value: 0x7F0E0005
-			public const int SfPdfViewerHyperlinkMessage = 2131623941;
+			// aapt resource value: 0x7F0E003B
+			public const int mtrl_badge_numberless_content_description = 2131623995;
 			
-			// aapt resource value: 0x7F0E0006
-			public const int SfPdfViewerHyperlinkMessageTitle = 2131623942;
+			// aapt resource value: 0x7F0E003C
+			public const int mtrl_chip_close_icon_content_description = 2131623996;
 			
-			// aapt resource value: 0x7F0E0007
-			public const int SfPdfViewerHyperlinkOpen = 2131623943;
+			// aapt resource value: 0x7F0E003D
+			public const int mtrl_exceed_max_badge_number_content_description = 2131623997;
 			
-			// aapt resource value: 0x7F0E0008
-			public const int SfPdfViewerStrikethrough = 2131623944;
+			// aapt resource value: 0x7F0E003E
+			public const int mtrl_exceed_max_badge_number_suffix = 2131623998;
 			
-			// aapt resource value: 0x7F0E0009
-			public const int SfPdfViewerUnderline = 2131623945;
+			// aapt resource value: 0x7F0E003F
+			public const int mtrl_picker_a11y_next_month = 2131623999;
+			
+			// aapt resource value: 0x7F0E0040
+			public const int mtrl_picker_a11y_prev_month = 2131624000;
+			
+			// aapt resource value: 0x7F0E0041
+			public const int mtrl_picker_announce_current_selection = 2131624001;
+			
+			// aapt resource value: 0x7F0E0042
+			public const int mtrl_picker_cancel = 2131624002;
+			
+			// aapt resource value: 0x7F0E0043
+			public const int mtrl_picker_confirm = 2131624003;
+			
+			// aapt resource value: 0x7F0E0044
+			public const int mtrl_picker_date_header_selected = 2131624004;
+			
+			// aapt resource value: 0x7F0E0045
+			public const int mtrl_picker_date_header_title = 2131624005;
+			
+			// aapt resource value: 0x7F0E0046
+			public const int mtrl_picker_date_header_unselected = 2131624006;
+			
+			// aapt resource value: 0x7F0E0047
+			public const int mtrl_picker_day_of_week_column_header = 2131624007;
+			
+			// aapt resource value: 0x7F0E0048
+			public const int mtrl_picker_invalid_format = 2131624008;
+			
+			// aapt resource value: 0x7F0E0049
+			public const int mtrl_picker_invalid_format_example = 2131624009;
+			
+			// aapt resource value: 0x7F0E004A
+			public const int mtrl_picker_invalid_format_use = 2131624010;
+			
+			// aapt resource value: 0x7F0E004B
+			public const int mtrl_picker_invalid_range = 2131624011;
+			
+			// aapt resource value: 0x7F0E004C
+			public const int mtrl_picker_navigate_to_year_description = 2131624012;
+			
+			// aapt resource value: 0x7F0E004D
+			public const int mtrl_picker_out_of_range = 2131624013;
+			
+			// aapt resource value: 0x7F0E004E
+			public const int mtrl_picker_range_header_only_end_selected = 2131624014;
+			
+			// aapt resource value: 0x7F0E004F
+			public const int mtrl_picker_range_header_only_start_selected = 2131624015;
+			
+			// aapt resource value: 0x7F0E0050
+			public const int mtrl_picker_range_header_selected = 2131624016;
+			
+			// aapt resource value: 0x7F0E0051
+			public const int mtrl_picker_range_header_title = 2131624017;
+			
+			// aapt resource value: 0x7F0E0052
+			public const int mtrl_picker_range_header_unselected = 2131624018;
+			
+			// aapt resource value: 0x7F0E0053
+			public const int mtrl_picker_save = 2131624019;
+			
+			// aapt resource value: 0x7F0E0054
+			public const int mtrl_picker_text_input_date_hint = 2131624020;
+			
+			// aapt resource value: 0x7F0E0055
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624021;
+			
+			// aapt resource value: 0x7F0E0056
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624022;
+			
+			// aapt resource value: 0x7F0E0057
+			public const int mtrl_picker_text_input_day_abbr = 2131624023;
+			
+			// aapt resource value: 0x7F0E0058
+			public const int mtrl_picker_text_input_month_abbr = 2131624024;
+			
+			// aapt resource value: 0x7F0E0059
+			public const int mtrl_picker_text_input_year_abbr = 2131624025;
+			
+			// aapt resource value: 0x7F0E005A
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624026;
+			
+			// aapt resource value: 0x7F0E005B
+			public const int mtrl_picker_toggle_to_day_selection = 2131624027;
+			
+			// aapt resource value: 0x7F0E005C
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624028;
+			
+			// aapt resource value: 0x7F0E005D
+			public const int mtrl_picker_toggle_to_year_selection = 2131624029;
+			
+			// aapt resource value: 0x7F0E005E
+			public const int overflow_tab_title = 2131624030;
+			
+			// aapt resource value: 0x7F0E005F
+			public const int password_toggle_content_description = 2131624031;
+			
+			// aapt resource value: 0x7F0E0060
+			public const int path_password_eye = 2131624032;
+			
+			// aapt resource value: 0x7F0E0061
+			public const int path_password_eye_mask_strike_through = 2131624033;
+			
+			// aapt resource value: 0x7F0E0062
+			public const int path_password_eye_mask_visible = 2131624034;
+			
+			// aapt resource value: 0x7F0E0063
+			public const int path_password_strike_through = 2131624035;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int sfpdfviewer_annotationsbackbutton = 2131624036;
+			public const int search_menu_title = 2131624036;
+			
+			// aapt resource value: 0x7F0E0003
+			public const int SfPdfViewerCancel = 2131623939;
+			
+			// aapt resource value: 0x7F0E0004
+			public const int SfPdfViewerCopy = 2131623940;
+			
+			// aapt resource value: 0x7F0E0005
+			public const int SfPdfViewerHighlight = 2131623941;
+			
+			// aapt resource value: 0x7F0E0006
+			public const int SfPdfViewerHyperlinkMessage = 2131623942;
+			
+			// aapt resource value: 0x7F0E0007
+			public const int SfPdfViewerHyperlinkMessageTitle = 2131623943;
+			
+			// aapt resource value: 0x7F0E0008
+			public const int SfPdfViewerHyperlinkOpen = 2131623944;
+			
+			// aapt resource value: 0x7F0E0009
+			public const int SfPdfViewerStrikethrough = 2131623945;
+			
+			// aapt resource value: 0x7F0E000A
+			public const int SfPdfViewerUnderline = 2131623946;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int sfpdfviewer_annotationsbutton = 2131624037;
+			public const int sfpdfviewer_annotationsbackbutton = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int sfpdfviewer_arrowbackbutton = 2131624038;
+			public const int sfpdfviewer_annotationsbutton = 2131624038;
 			
 			// aapt resource value: 0x7F0E0067
-			public const int sfpdfviewer_arrowbutton = 2131624039;
+			public const int sfpdfviewer_arrowbackbutton = 2131624039;
 			
 			// aapt resource value: 0x7F0E0068
-			public const int sfpdfviewer_backbutton = 2131624040;
+			public const int sfpdfviewer_arrowbutton = 2131624040;
 			
 			// aapt resource value: 0x7F0E0069
-			public const int sfpdfviewer_blackcolorbutton = 2131624041;
+			public const int sfpdfviewer_backbutton = 2131624041;
 			
 			// aapt resource value: 0x7F0E006A
-			public const int sfpdfviewer_bookmarksbackbutton = 2131624042;
+			public const int sfpdfviewer_blackcolorbutton = 2131624042;
 			
 			// aapt resource value: 0x7F0E006B
-			public const int sfpdfviewer_bookmarksbutton = 2131624043;
+			public const int sfpdfviewer_bookmarksbackbutton = 2131624043;
 			
 			// aapt resource value: 0x7F0E006C
-			public const int sfpdfviewer_bookmarksclosebutton = 2131624044;
+			public const int sfpdfviewer_bookmarksbutton = 2131624044;
 			
 			// aapt resource value: 0x7F0E006D
-			public const int sfpdfviewer_cancel = 2131624045;
+			public const int sfpdfviewer_bookmarksclosebutton = 2131624045;
 			
 			// aapt resource value: 0x7F0E006E
-			public const int sfpdfviewer_cancelsearchbutton = 2131624046;
+			public const int sfpdfviewer_cancel = 2131624046;
 			
 			// aapt resource value: 0x7F0E006F
-			public const int sfpdfviewer_clearsearchbutton = 2131624047;
+			public const int sfpdfviewer_cancelsearchbutton = 2131624047;
 			
 			// aapt resource value: 0x7F0E0070
-			public const int sfpdfviewer_cloudbutton = 2131624048;
+			public const int sfpdfviewer_clearsearchbutton = 2131624048;
 			
 			// aapt resource value: 0x7F0E0071
-			public const int sfpdfviewer_colorbutton = 2131624049;
+			public const int sfpdfviewer_cloudbutton = 2131624049;
 			
 			// aapt resource value: 0x7F0E0072
-			public const int sfpdfviewer_continuouspagebutton = 2131624050;
+			public const int sfpdfviewer_colorbutton = 2131624050;
 			
 			// aapt resource value: 0x7F0E0073
-			public const int sfpdfviewer_cyancolorbutton = 2131624051;
+			public const int sfpdfviewer_continuouspagebutton = 2131624051;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int sfpdfviewer_deletebutton = 2131624052;
+			public const int sfpdfviewer_cyancolorbutton = 2131624052;
 			
 			// aapt resource value: 0x7F0E0075
-			public const int sfpdfviewer_done = 2131624053;
+			public const int sfpdfviewer_deletebutton = 2131624053;
 			
 			// aapt resource value: 0x7F0E0076
-			public const int sfpdfviewer_ellipsebackbutton = 2131624054;
+			public const int sfpdfviewer_done = 2131624054;
 			
 			// aapt resource value: 0x7F0E0077
-			public const int sfpdfviewer_ellipsebutton = 2131624055;
+			public const int sfpdfviewer_ellipsebackbutton = 2131624055;
 			
 			// aapt resource value: 0x7F0E0078
-			public const int sfpdfviewer_fontsizebutton = 2131624056;
+			public const int sfpdfviewer_ellipsebutton = 2131624056;
 			
 			// aapt resource value: 0x7F0E0079
-			public const int sfpdfviewer_freetextbutton = 2131624057;
+			public const int sfpdfviewer_fontsizebutton = 2131624057;
 			
 			// aapt resource value: 0x7F0E007A
-			public const int sfpdfviewer_greencolorbutton = 2131624058;
+			public const int sfpdfviewer_freetextbutton = 2131624058;
 			
 			// aapt resource value: 0x7F0E007B
-			public const int sfpdfviewer_highlightbutton = 2131624059;
+			public const int sfpdfviewer_greencolorbutton = 2131624059;
 			
 			// aapt resource value: 0x7F0E007C
-			public const int sfpdfviewer_highlighttextbackbutton = 2131624060;
+			public const int sfpdfviewer_highlightbutton = 2131624060;
 			
 			// aapt resource value: 0x7F0E007D
-			public const int sfpdfviewer_hinttext = 2131624061;
+			public const int sfpdfviewer_highlighttextbackbutton = 2131624061;
 			
 			// aapt resource value: 0x7F0E007E
-			public const int sfpdfviewer_inkbackbutton = 2131624062;
+			public const int sfpdfviewer_hinttext = 2131624062;
 			
 			// aapt resource value: 0x7F0E007F
-			public const int sfpdfviewer_inkbutton = 2131624063;
+			public const int sfpdfviewer_inkbackbutton = 2131624063;
 			
 			// aapt resource value: 0x7F0E0080
-			public const int sfpdfviewer_linebackbutton = 2131624064;
+			public const int sfpdfviewer_inkbutton = 2131624064;
 			
 			// aapt resource value: 0x7F0E0081
-			public const int sfpdfviewer_linebutton = 2131624065;
+			public const int sfpdfviewer_linebackbutton = 2131624065;
 			
 			// aapt resource value: 0x7F0E0082
-			public const int sfpdfviewer_magentacolorbutton = 2131624066;
+			public const int sfpdfviewer_linebutton = 2131624066;
 			
 			// aapt resource value: 0x7F0E0083
-			public const int sfpdfviewer_moreoptionsbutton = 2131624067;
+			public const int sfpdfviewer_magentacolorbutton = 2131624067;
 			
 			// aapt resource value: 0x7F0E0084
-			public const int sfpdfviewer_nextlevelbookmarksbutton = 2131624068;
+			public const int sfpdfviewer_moreoptionsbutton = 2131624068;
 			
 			// aapt resource value: 0x7F0E0085
-			public const int sfpdfviewer_opacitybutton = 2131624069;
+			public const int sfpdfviewer_nextlevelbookmarksbutton = 2131624069;
 			
 			// aapt resource value: 0x7F0E0086
-			public const int sfpdfviewer_pagedownbutton = 2131624070;
+			public const int sfpdfviewer_opacitybutton = 2131624070;
 			
 			// aapt resource value: 0x7F0E0087
-			public const int sfpdfviewer_pageupbutton = 2131624071;
+			public const int sfpdfviewer_pagedownbutton = 2131624071;
 			
 			// aapt resource value: 0x7F0E0088
-			public const int sfpdfviewer_passworddialogpassworddialogedittexthint = 2131624072;
+			public const int sfpdfviewer_pageupbutton = 2131624072;
 			
 			// aapt resource value: 0x7F0E0089
-			public const int sfpdfviewer_passworddialogviewcancelbutton = 2131624073;
+			public const int sfpdfviewer_passworddialogpassworddialogedittexthint = 2131624073;
 			
 			// aapt resource value: 0x7F0E008A
-			public const int sfpdfviewer_passworddialogviewcontent = 2131624074;
+			public const int sfpdfviewer_passworddialogviewcancelbutton = 2131624074;
 			
 			// aapt resource value: 0x7F0E008B
-			public const int sfpdfviewer_passworddialogviewerrorcontent = 2131624075;
+			public const int sfpdfviewer_passworddialogviewcontent = 2131624075;
 			
 			// aapt resource value: 0x7F0E008C
-			public const int sfpdfviewer_passworddialogviewokbutton = 2131624076;
+			public const int sfpdfviewer_passworddialogviewerrorcontent = 2131624076;
 			
 			// aapt resource value: 0x7F0E008D
-			public const int sfpdfviewer_passworddialogviewtitle = 2131624077;
+			public const int sfpdfviewer_passworddialogviewokbutton = 2131624077;
 			
 			// aapt resource value: 0x7F0E008E
-			public const int sfpdfviewer_polygonbutton = 2131624078;
+			public const int sfpdfviewer_passworddialogviewtitle = 2131624078;
 			
 			// aapt resource value: 0x7F0E008F
-			public const int sfpdfviewer_previouslevelbookmarksbutton = 2131624079;
+			public const int sfpdfviewer_polygonbutton = 2131624079;
 			
 			// aapt resource value: 0x7F0E0090
-			public const int sfpdfviewer_printbutton = 2131624080;
+			public const int sfpdfviewer_previouslevelbookmarksbutton = 2131624080;
 			
 			// aapt resource value: 0x7F0E0091
-			public const int sfpdfviewer_rectanglebackbutton = 2131624081;
+			public const int sfpdfviewer_printbutton = 2131624081;
 			
 			// aapt resource value: 0x7F0E0092
-			public const int sfpdfviewer_rectanglebutton = 2131624082;
+			public const int sfpdfviewer_rectanglebackbutton = 2131624082;
 			
 			// aapt resource value: 0x7F0E0093
-			public const int sfpdfviewer_redcolorbutton = 2131624083;
+			public const int sfpdfviewer_rectanglebutton = 2131624083;
 			
 			// aapt resource value: 0x7F0E0094
-			public const int sfpdfviewer_redobutton = 2131624084;
+			public const int sfpdfviewer_redcolorbutton = 2131624084;
 			
 			// aapt resource value: 0x7F0E0095
-			public const int sfpdfviewer_redoinkbutton = 2131624085;
+			public const int sfpdfviewer_redobutton = 2131624085;
 			
 			// aapt resource value: 0x7F0E0096
-			public const int sfpdfviewer_savebutton = 2131624086;
+			public const int sfpdfviewer_redoinkbutton = 2131624086;
 			
 			// aapt resource value: 0x7F0E0097
-			public const int sfpdfviewer_searchbackbutton = 2131624087;
+			public const int sfpdfviewer_savebutton = 2131624087;
 			
 			// aapt resource value: 0x7F0E0098
-			public const int sfpdfviewer_searchbarplaceholdertext = 2131624088;
+			public const int sfpdfviewer_searchbackbutton = 2131624088;
 			
 			// aapt resource value: 0x7F0E0099
-			public const int sfpdfviewer_searchbutton = 2131624089;
+			public const int sfpdfviewer_searchbarplaceholdertext = 2131624089;
 			
 			// aapt resource value: 0x7F0E009A
-			public const int sfpdfviewer_searchnextbutton = 2131624090;
+			public const int sfpdfviewer_searchbutton = 2131624090;
 			
 			// aapt resource value: 0x7F0E009B
-			public const int sfpdfviewer_searchpreviousbutton = 2131624091;
+			public const int sfpdfviewer_searchnextbutton = 2131624091;
 			
 			// aapt resource value: 0x7F0E009C
-			public const int sfpdfviewer_shapesbackbutton = 2131624092;
+			public const int sfpdfviewer_searchpreviousbutton = 2131624092;
 			
 			// aapt resource value: 0x7F0E009D
-			public const int sfpdfviewer_shapesbutton = 2131624093;
+			public const int sfpdfviewer_shapesbackbutton = 2131624093;
 			
 			// aapt resource value: 0x7F0E009E
-			public const int sfpdfviewer_signaturebutton = 2131624094;
+			public const int sfpdfviewer_shapesbutton = 2131624094;
 			
 			// aapt resource value: 0x7F0E009F
-			public const int sfpdfviewer_signaturepad_cancel = 2131624095;
+			public const int sfpdfviewer_signaturebutton = 2131624095;
 			
 			// aapt resource value: 0x7F0E00A0
-			public const int sfpdfviewer_signaturepad_clear = 2131624096;
+			public const int sfpdfviewer_signaturepad_cancel = 2131624096;
 			
 			// aapt resource value: 0x7F0E00A1
-			public const int sfpdfviewer_signaturepad_done = 2131624097;
+			public const int sfpdfviewer_signaturepad_clear = 2131624097;
 			
 			// aapt resource value: 0x7F0E00A2
-			public const int sfpdfviewer_singlepagebutton = 2131624098;
+			public const int sfpdfviewer_signaturepad_done = 2131624098;
 			
 			// aapt resource value: 0x7F0E00A3
-			public const int sfpdfviewer_strikethroughbutton = 2131624099;
+			public const int sfpdfviewer_singlepagebutton = 2131624099;
 			
 			// aapt resource value: 0x7F0E00A4
-			public const int sfpdfviewer_strikethroughtextbackbutton = 2131624100;
+			public const int sfpdfviewer_strikethroughbutton = 2131624100;
 			
 			// aapt resource value: 0x7F0E00A5
-			public const int sfpdfviewer_textbackbutton = 2131624101;
+			public const int sfpdfviewer_strikethroughtextbackbutton = 2131624101;
 			
 			// aapt resource value: 0x7F0E00A6
-			public const int sfpdfviewer_textmarkupsbackbutton = 2131624102;
+			public const int sfpdfviewer_textbackbutton = 2131624102;
 			
 			// aapt resource value: 0x7F0E00A7
-			public const int sfpdfviewer_textmarkupsbutton = 2131624103;
+			public const int sfpdfviewer_textmarkupsbackbutton = 2131624103;
 			
 			// aapt resource value: 0x7F0E00A8
-			public const int sfpdfviewer_thicknessbutton = 2131624104;
+			public const int sfpdfviewer_textmarkupsbutton = 2131624104;
 			
 			// aapt resource value: 0x7F0E00A9
-			public const int sfpdfviewer_thicknessfivebutton = 2131624105;
+			public const int sfpdfviewer_thicknessbutton = 2131624105;
 			
 			// aapt resource value: 0x7F0E00AA
-			public const int sfpdfviewer_thicknessninebutton = 2131624106;
+			public const int sfpdfviewer_thicknessfivebutton = 2131624106;
 			
 			// aapt resource value: 0x7F0E00AB
-			public const int sfpdfviewer_thicknessonebutton = 2131624107;
+			public const int sfpdfviewer_thicknessninebutton = 2131624107;
 			
 			// aapt resource value: 0x7F0E00AC
-			public const int sfpdfviewer_thicknesssevenbutton = 2131624108;
+			public const int sfpdfviewer_thicknessonebutton = 2131624108;
 			
 			// aapt resource value: 0x7F0E00AD
-			public const int sfpdfviewer_thicknesthreebutton = 2131624109;
+			public const int sfpdfviewer_thicknesssevenbutton = 2131624109;
 			
 			// aapt resource value: 0x7F0E00AE
-			public const int sfpdfviewer_underlinebutton = 2131624110;
+			public const int sfpdfviewer_thicknesthreebutton = 2131624110;
 			
 			// aapt resource value: 0x7F0E00AF
-			public const int sfpdfviewer_underlinetextbackbutton = 2131624111;
+			public const int sfpdfviewer_underlinebutton = 2131624111;
 			
 			// aapt resource value: 0x7F0E00B0
-			public const int sfpdfviewer_undobutton = 2131624112;
+			public const int sfpdfviewer_underlinetextbackbutton = 2131624112;
 			
 			// aapt resource value: 0x7F0E00B1
-			public const int sfpdfviewer_undoinkbutton = 2131624113;
+			public const int sfpdfviewer_undobutton = 2131624113;
 			
 			// aapt resource value: 0x7F0E00B2
-			public const int sfpdfviewer_viewmodebutton = 2131624114;
+			public const int sfpdfviewer_undoinkbutton = 2131624114;
 			
 			// aapt resource value: 0x7F0E00B3
-			public const int sfpdfviewer_yellowcolorbutton = 2131624115;
+			public const int sfpdfviewer_viewmodebutton = 2131624115;
 			
 			// aapt resource value: 0x7F0E00B4
-			public const int status_bar_notification_info_overflow = 2131624116;
+			public const int sfpdfviewer_yellowcolorbutton = 2131624116;
+			
+			// aapt resource value: 0x7F0E00B5
+			public const int status_bar_notification_info_overflow = 2131624117;
 			
 			static String()
 			{

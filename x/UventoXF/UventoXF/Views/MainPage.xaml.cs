@@ -77,45 +77,55 @@ namespace UventoXF.Views
                 current_latitude = location.Latitude;
                 current_longitude = location.Longitude;
 
-                int indexVal = 0;
-                var xml = XDocument.Load("http://api.timezonedb.com/v2.1/get-time-zone?key=HITW6BYBQTCK&format=xml&by=position&lat=" + current_latitude + "&lng=" + current_longitude);
+            //int indexVal = 0;
+            //var xml = XDocument.Load("http://api.timezonedb.com/v2.1/get-time-zone?key=HITW6BYBQTCK&format=xml&by=position&lat=" + current_latitude + "&lng=" + current_longitude);
 
-                string currentDate = xml.Root.LastNode.ToString();
+            //string currentDate = xml.Root.LastNode.ToString();
 
-                if (currentDate.Length == 42)
-                {
-                    currentDate = xml.Root.LastNode.ToString().Substring(11, 10);
-                    currentDate = currentDate.Substring(8, 2) + "-" + currentDate.Substring(5, 2) + "-" + currentDate.Substring(0, 4);
-                    currentDate = currentDate.Trim();
-                    string date = currentDate.Substring(0, 2);
-                    string month = currentDate.Substring(3, 2);
-                    string year = currentDate.Substring(6, 4);
+            //if (currentDate.Length == 42)
+            //{
+            //    currentDate = xml.Root.LastNode.ToString().Substring(11, 10);
+            //    currentDate = currentDate.Substring(8, 2) + "-" + currentDate.Substring(5, 2) + "-" + currentDate.Substring(0, 4);
+            //    currentDate = currentDate.Trim();
+            //    string date = currentDate.Substring(0, 2);
+            //    string month = currentDate.Substring(3, 2);
+            //    string year = currentDate.Substring(6, 4);
 
 
-                    var url = "https://api.aladhan.com/v1/calendar?latitude=" + current_latitude + "&longitude=" + current_longitude + "&method=1&month=" + month + "7&year=" + year;
-                    var timings = _download_serialized_json_data<Rootobject>(url);
+            //    var url = "https://api.aladhan.com/v1/calendar?latitude=" + current_latitude + "&longitude=" + current_longitude + "&method=1&month=" + month + "7&year=" + year;
+            //    var timings = _download_serialized_json_data<Rootobject>(url);
 
-                    for (int i = 0; i < timings.data.Length; i++)
-                    {
-                        if (currentDate.Equals(timings.data[i].date.gregorian.date))
-                        {
-                            indexVal = i;
-                        }
-                    }
-                    var namaazTime = new List<string>();
+            //    for (int i = 0; i < timings.data.Length; i++)
+            //    {
+            //        if (currentDate.Equals(timings.data[i].date.gregorian.date))
+            //        {
+            //            indexVal = i;
+            //        }
+            //    }
+            //    var namaazTime = new List<string>();
 
-                    namaazTime.Add(timings.data[indexVal].timings.Fajr.Substring(0, 5));
-                    namaazTime.Add(timings.data[indexVal].timings.Dhuhr.Substring(0, 5));
-                    namaazTime.Add(timings.data[indexVal].timings.Asr.Substring(0, 5));
-                    namaazTime.Add(timings.data[indexVal].timings.Maghrib.Substring(0, 5));
-                    namaazTime.Add(timings.data[indexVal].timings.Isha.Substring(0, 5));
+            //    namaazTime.Add(timings.data[indexVal].timings.Fajr.Substring(0, 5));
+            //    namaazTime.Add(timings.data[indexVal].timings.Dhuhr.Substring(0, 5));
+            //    namaazTime.Add(timings.data[indexVal].timings.Asr.Substring(0, 5));
+            //    namaazTime.Add(timings.data[indexVal].timings.Maghrib.Substring(0, 5));
+            //    namaazTime.Add(timings.data[indexVal].timings.Isha.Substring(0, 5));
 
-                    FajrTime.Text = timings.data[indexVal].timings.Fajr.Substring(0, 5);
-                    ZohrTime.Text = timings.data[indexVal].timings.Dhuhr.Substring(0, 5);
-                    AsrTime.Text = timings.data[indexVal].timings.Asr.Substring(0, 5);
-                    MaghribTime.Text = timings.data[indexVal].timings.Maghrib.Substring(0, 5);
-                    EshaTime.Text = timings.data[indexVal].timings.Isha.Substring(0, 5);
-                }
+            //    FajrTime.Text = timings.data[indexVal].timings.Fajr.Substring(0, 5);
+            //    ZohrTime.Text = timings.data[indexVal].timings.Dhuhr.Substring(0, 5);
+            //    AsrTime.Text = timings.data[indexVal].timings.Asr.Substring(0, 5);
+            //    MaghribTime.Text = timings.data[indexVal].timings.Maghrib.Substring(0, 5);
+            //    EshaTime.Text = timings.data[indexVal].timings.Isha.Substring(0, 5);
+            //}
+                var url2 = "https://api.aladhan.com/v1/timings/date_or_timestamp?latitude=51.508515&longitude=-0.1254872&method=2";
+                var timings = _download_serialized_json_data<Rootobject>(url2);
+                FajrTime.Text = timings.data.timings.Fajr.Substring(0, 5);
+                ZohrTime.Text = timings.data.timings.Dhuhr.Substring(0, 5);
+                AsrTime.Text = timings.data.timings.Asr.Substring(0, 5);
+                MaghribTime.Text = timings.data.timings.Maghrib.Substring(0, 5);
+                EshaTime.Text = timings.data.timings.Isha.Substring(0, 5);
+
+
+
             }
             catch (FeatureNotSupportedException fnsEx)
             {
