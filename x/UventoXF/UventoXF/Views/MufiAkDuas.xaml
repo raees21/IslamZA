@@ -2,6 +2,25 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:listView="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
-             xmlns:dataSource="clr-namespace:Syncfusion.DataSource;assembly=Syncfusion.DataSource.Portable" xmlns:viewmodels="clr-namespace:UventoXF.ViewModels" x:DataType="viewmodels:MuftAkDuasViewModel"
+             xmlns:dataSource="clr-namespace:Syncfusion.DataSource;assembly=Syncfusion.DataSource.Portable" xmlns:viewmodels="clr-namespace:UventoXF.ViewModels" xmlns:behaviors="http://xamarin.com/schemas/2020/toolkit" x:DataType="viewmodels:MuftAkDuasViewModel"
              x:Class="UventoXF.Views.MufiAkDuas">
+
+    <behaviors:Expander>
+        <behaviors:Expander.Header>
+            <Grid>
+                <Label Text="DUA FOR PARENTS"
+               FontAttributes="Bold"
+               FontSize="Medium" 
+               HorizontalTextAlignment="Center"/>
+                
+            </Grid>
+        </behaviors:Expander.Header>
+        <Grid Padding="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Image Source="dua_for_parents.png" />
+        </Grid>
+    </behaviors:Expander>
 </ContentPage>
